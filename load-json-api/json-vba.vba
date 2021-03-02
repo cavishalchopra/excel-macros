@@ -1,4 +1,4 @@
-Function getJSON()
+Function getJSON(key as String)
     Set MyRequest = CreateObject("WinHttp.WinHttpRequest.5.1")
     
     'Add json url into the below field
@@ -11,5 +11,5 @@ Function getJSON()
     Set Json = JsonConverter.ParseJson(MyRequest.ResponseText)
             
     'MsgBox Json("title")
-    getJSON = Json("title")
+    getJSON = Json(key)
 End Function
