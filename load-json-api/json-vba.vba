@@ -9,6 +9,7 @@ Function getJSON()
     
     Dim Json As Object
     Set Json = JsonConverter.ParseJson(MyRequest.ResponseText)
-    MsgBox Json("title")
+            
+    'MsgBox Json("title")
     getJSON = Json("title")
 End Function
