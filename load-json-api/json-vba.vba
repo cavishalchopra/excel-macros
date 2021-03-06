@@ -11,6 +11,8 @@ Function getJSON(JsonUrl As String, key As String)
         Application.Caller.Font.ColorIndex = 3
         getJSON = "Data not found"
     Else
+        Application.Caller.Font.ColorIndex = 1
         getJSON = Json(key)
     End If
+            
 End Function
