@@ -3,7 +3,7 @@ Sub RegexMatch()
     Dim regexOne As Object
     Dim Text As String
 
-    'Gt value from the cell A1
+    'Get value from the cell A1
     Text = Worksheets("Sheet1").Range("A1").Value
 
     Set regexOne = New RegExp
