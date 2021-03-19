@@ -5,9 +5,8 @@ enable
 
 
 
-Call teh splire function as 
+Call the splitre function as shown below
 
-code
 ```vba
 Dim v
 v = SplitRe(Text, "\d{6,}")
