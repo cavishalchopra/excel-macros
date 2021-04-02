@@ -1,5 +1,7 @@
 'It extract only the first match
-' Developed by Vishal Chopra (admin[at]vishalchopra.in)
+'Developed by Vishal Chopra (admin[at]vishalchopra.in)
+
+
 Function RegexMatch(Text As String, Pattern As String)
     'Dim stringOne As String
     Dim regexOne As Object
